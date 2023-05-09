@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'WICBW Wiki',
+  tagline: 'Well, it could be worse',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -41,8 +41,8 @@ const config = {
           // Remove this to remove the "edit this page" links.
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
-          editUrl:
-            'https://github.com/mikehaart/wicbwwiki',
+          editUrl: ({versionDocsDirPath, docPath}) =>
+            `https://github.com/mikehaart/wicbwwiki/edit/main/${versionDocsDirPath}/${docPath}`,
         },
         blog: false,
         theme: {
@@ -57,15 +57,20 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+      docs: {
+        sidebar: {
+          autoCollapseCategories: true,
+        }
+      },
       navbar: {
-        title: 'My Site',
+        title: 'WICBW Wiki',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
         items: [
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/mikehaart/wicbwwiki',
             label: 'GitHub',
             position: 'right',
           },

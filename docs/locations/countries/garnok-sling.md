@@ -1,0 +1,3 @@
+---
+title: Gar'nok Sling
+---
