@@ -42,7 +42,7 @@ const config = {
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           editUrl:
-            'https://github.com/mikehaart/wicbw',
+            'https://github.com/mikehaart/wicbwwiki',
         },
         blog: false,
         theme: {
