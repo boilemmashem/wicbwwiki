@@ -1,6 +1,6 @@
 ---
+title: Introduction
 slug: /
-title: Welcome
 sidebar_position: 1
 ---
 # Well, It Could Be Worse
