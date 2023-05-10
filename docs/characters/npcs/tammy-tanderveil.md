@@ -7,4 +7,4 @@ title: Tammy Tanderveil
 
 
 
-Owner of the [Pick's fishery](../../locations/settlements/picks-welcome.md#picks-fishery).
+Owner of the [Pick's fishery](../../Locations/Regions/kingsland-south/Settlements/picks-welcome.md#picks-fishery).
