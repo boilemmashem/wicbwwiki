@@ -89,20 +89,12 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Links',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+                label: 'Character Sheets',
+                href: 'https://paizo.com/community/blog/v5748dyo6sgsn?Pathfinder-Second-Edition-Character-Sheets',
+              }
             ],
           },
           {
@@ -112,6 +104,10 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/mikehaart/wicbwwiki',
               },
+              {
+                label: 'Docusaurus',
+                href: 'https://docusaurus.io/'
+              }
             ],
           },
         ],
@@ -121,6 +117,27 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      algolia: {
+        // The application ID provided by Algolia
+        appId: '547D1GXHOR',
+        // Public API key: it is safe to commit it
+        apiKey: '2305ad4d5e1313927ac255fd29075da7',
+        indexName: 'wicbwwikiIndex',
+        // Optional: see doc section below
+        contextualSearch: true,
+        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+        externalUrlRegex: 'external\\.com|domain\\.com',
+        // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
+        replaceSearchResultPathname: {
+          from: '/docs/', // or as RegExp: /\/docs\//
+          to: '/',
+        },
+        // Optional: Algolia search parameters
+        searchParameters: {},
+        // Optional: path for search page that enabled by default (`false` to disable it)
+        searchPagePath: 'search',
+        //... other Algolia params
+      }
     }),
 };
 
