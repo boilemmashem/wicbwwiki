@@ -30,6 +30,15 @@ const config = {
     locales: ['en'],
   },
 
+  // Scripts to inject on the page
+  scripts: [
+    {
+      // Algolia FE search bundle
+      src: "https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js",
+      async: true,
+    }
+  ],
+
   presets: [
     [
       'classic',
