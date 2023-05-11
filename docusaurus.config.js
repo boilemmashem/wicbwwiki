@@ -34,7 +34,8 @@ const config = {
   scripts: [
     {
       // Algolia FE search bundle
-      src: "https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"
+      src: "https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js",
+      async: true,
     }
   ],
 
@@ -127,9 +128,9 @@ const config = {
       },
       algolia: {
         // The application ID provided by Algolia
-        appId: '547D1GXHOR',
+        appId: 'DGMONGHJKH',
         // Public API key: it is safe to commit it
-        apiKey: '2305ad4d5e1313927ac255fd29075da7',
+        apiKey: '211080b0a4c2c33dc0a2d0e25ac0c0f6',
         indexName: 'wicbwwikiIndex',
         // Optional: see doc section below
         contextualSearch: true,
