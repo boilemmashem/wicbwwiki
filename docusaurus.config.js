@@ -122,7 +122,7 @@ const config = {
         appId: 'DGMONGHJKH',
         // Public API key: it is safe to commit it
         apiKey: '211080b0a4c2c33dc0a2d0e25ac0c0f6',
-        indexName: 'wicbwwikiIndex',
+        indexName: 'netlify_2b25d0d1-0404-4bf1-a96d-fe292ed9901b_main_all',
         // Optional: see doc section below
         contextualSearch: false,
         // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
