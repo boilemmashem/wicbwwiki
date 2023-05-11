@@ -30,15 +30,6 @@ const config = {
     locales: ['en'],
   },
 
-  // Scripts to inject on the page
-  scripts: [
-    {
-      // Algolia FE search bundle
-      src: "https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js",
-      async: true,
-    }
-  ],
-
   presets: [
     [
       'classic',
@@ -133,7 +124,7 @@ const config = {
         apiKey: '211080b0a4c2c33dc0a2d0e25ac0c0f6',
         indexName: 'wicbwwikiIndex',
         // Optional: see doc section below
-        contextualSearch: true,
+        contextualSearch: false,
         // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
         externalUrlRegex: 'external\\.com|domain\\.com',
         // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
