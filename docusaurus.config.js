@@ -34,8 +34,7 @@ const config = {
   scripts: [
     {
       // Algolia FE search bundle
-      src: "https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js",
-      async: true,
+      src: "https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"
     }
   ],
 
