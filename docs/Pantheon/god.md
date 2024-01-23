@@ -1,5 +1,5 @@
 ---
-title: Godname
+title: Silwin, Lady of Luck
 ---
 
-Domains: Chaos, Tides, Doughnuts
+Domains: Chaos, Luck, Good fortune
