@@ -2,7 +2,9 @@
 
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 
-![dice logo](./src/assets/dice.svg)
+<p align='center'>
+    <img src='./src/assets/dice.svg' alt='dice logo' />
+</p>
 
 A documentation site to host notes and stories for our home tabletop game.
 
