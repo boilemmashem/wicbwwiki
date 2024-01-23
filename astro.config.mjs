@@ -24,14 +24,17 @@ export default defineConfig({
 				{
 					label: 'Characters',
 					autogenerate: { directory: 'characters' },
+					collapsed: true
 				},
 				{
 					label: 'Factions',
 					autogenerate: { directory: 'factions' },
+					collapsed: true
 				},
 				{
 					label: 'Regions',
 					autogenerate: { directory: 'regions' },
+					collapsed: true
 				},
 			],
 		}),
