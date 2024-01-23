@@ -1,0 +1,37 @@
+---
+title: Well, it could be worse
+description: Get started building your docs site with Starlight.
+# template: splash
+tableOfContents: false
+hero:
+  tagline: Always bet on the little guy
+  image:
+    file: ../../assets/houston.webp
+  actions:
+    - text: Read the wiki
+      link: /guides/introduction
+      icon: right-arrow
+      variant: primary
+    - text: Read the Starlight docs
+      link: https://starlight.astro.build
+---
+import { Card, LinkCard, CardGrid } from "@astrojs/starlight/components";
+
+This is a Wiki for notes about the world and campaign we are running for Pathfinder 2e. Info here is _mostly_ spoiler free for the campaign, and considered to be known by the characters and/or players.
+
+## Let's get to it
+
+<CardGrid>
+	<Card title="Existing Lore" icon="open-book">
+		Read about the game lore, events, locations, gods etc
+	</Card>
+	<Card title="Create new pages" icon="add-document">
+		Expand existing sections, create characters, or towns.
+	</Card>
+</CardGrid>
+
+<LinkCard
+  title="Group intro"
+  description="What we do here, and more about the sessions."
+  href="/guides/introduction"
+/>
