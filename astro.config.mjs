@@ -23,13 +23,21 @@ export default defineConfig({
 				},
 				{
 					label: 'Characters',
-					autogenerate: { directory: 'characters' },
-					collapsed: true
+					items: [
+						{
+							label: 'PCs',
+							autogenerate: { directory: 'characters/pcs' },
+						},
+						{
+							label: 'NPCs',
+							autogenerate: { directory: 'characters/npcs' },
+							collapsed: true
+						}
+					],
 				},
 				{
 					label: 'Factions',
-					autogenerate: { directory: 'factions' },
-					collapsed: true
+					autogenerate: { directory: 'factions' }
 				},
 				{
 					label: 'Regions',

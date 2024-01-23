@@ -17,6 +17,8 @@ Only content from owned books can be used in the game, these source books can be
 - Player Core
 - Gamemaster Core
 - Bestiary 1, 2, and 3
+- Treasure Vault
+- Dark Vaults
 
 ## Homebrew and subsystems
 
@@ -24,9 +26,11 @@ These are the custom rules or systems we have in play.
 
 ### Reputation
 
-Our game makes use of the [reputation subsystem](https://2e.aonprd.com/Rules.aspx?ID=1234) to keep track of how organisations react to the group.
+Our game makes use of the [reputation subsystem](https://2e.aonprd.com/Rules.aspx?ID=1234) to keep track of how organisations react to the group. Depending on the actions you take, you can gain fame or infamy with factions or locations.
 
-> Reputation is saved to the group. Unless the whole group perishes new characters being introduced will automatically have this association while acting beside existing party members.
+:::tip[Reputation]
+Reputation is saved to the group. Unless the whole group perishes, new characters will automatically benefit from the current group rep.
+:::
 
 ## Campaign Playlist
 
