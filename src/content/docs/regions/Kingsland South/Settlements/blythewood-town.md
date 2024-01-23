@@ -1,4 +1,6 @@
-# Blythewood Town
+---
+title: Blythewood Town
+---
 
 ![Blythewood Town on a sunny day](./img/sunny-blythewood.jpg)
 

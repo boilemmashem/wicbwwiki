@@ -1,6 +1,6 @@
 ---
+title: Red Hand Syndicate
 ---
-# Red Hand Syndicate
 
 ![Red Hand Syndicate](./img/redhandsyndicate.png)
 

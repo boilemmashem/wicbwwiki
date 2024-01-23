@@ -1,6 +1,6 @@
 ---
+title: Thornwall Company
 ---
-# Thornwall Company
 
 Leader: Eirik Thornwall
 

@@ -10,20 +10,28 @@ export default defineConfig({
 				github: 'https://github.com/withastro/starlight',
 			},
 			sidebar: [
+				// {
+				// 	label: 'Intro',
+				// 	items: [
+				// 		// Each item here is one entry in the navigation menu.
+				// 		{ label: 'Intro', link: '/guides/intro' },
+				// 	],
+				// },
 				{
 					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
-					],
+					autogenerate: { directory: 'guides' },
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Characters',
+					autogenerate: { directory: 'characters' },
 				},
 				{
-					label: 'NPCs',
-					autogenerate: { directory: 'NPCs' },
+					label: 'Factions',
+					autogenerate: { directory: 'factions' },
+				},
+				{
+					label: 'Regions',
+					autogenerate: { directory: 'regions' },
 				},
 			],
 		}),
