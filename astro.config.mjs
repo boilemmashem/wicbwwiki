@@ -5,9 +5,9 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Well, It Could Be Worse',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/boilemmashem/wicbwwiki',
 			},
 			sidebar: [
 				// {
@@ -34,6 +34,11 @@ export default defineConfig({
 				{
 					label: 'Regions',
 					autogenerate: { directory: 'regions' },
+					collapsed: true
+				},
+				{
+					label: 'Pantheon',
+					autogenerate: { directory: 'pantheon' },
 					collapsed: true
 				},
 			],
