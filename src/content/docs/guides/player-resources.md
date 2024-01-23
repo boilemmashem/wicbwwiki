@@ -11,7 +11,7 @@ Some helpful resources for players.
 
 ## Source Books
 
-Only content from owned books can be used in the game, these source books can be shared from google drive.
+Only content from owned books can be used in the game..
 
 - Core rule book
 - Player Core
