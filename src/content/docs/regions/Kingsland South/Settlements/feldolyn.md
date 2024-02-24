@@ -2,6 +2,8 @@
 title: Feldolyn
 ---
 
+![Feldolyn](./img/feldolyn.jpg)
+
 Level 3 settlement
 
 # Church of Saren Rae
